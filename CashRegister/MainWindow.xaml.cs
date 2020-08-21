@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 namespace CashRegister
 {
     /// <summary>
@@ -23,6 +22,22 @@ namespace CashRegister
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            using(AppContext appc = new AppContext())
+            {
+                
+            }
+            using(AppContext appc = new AppContext())
+            {
+                
+                foreach (var item in appc.Products.ToList())
+                {
+                    listbox1.Items.Add(item.Price + " " + item.ProductName);
+                }
+            }
         }
     }
 }
