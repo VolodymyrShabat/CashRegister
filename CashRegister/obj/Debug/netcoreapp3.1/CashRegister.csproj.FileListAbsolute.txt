@@ -56,3 +56,7 @@ C:\Users\Volod\source\repos\CashRegister\CashRegister\bin\Debug\netcoreapp3.1\ru
 C:\Users\Volod\source\repos\CashRegister\CashRegister\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\CashRegister.csproj.CopyComplete
 C:\Users\Volod\source\repos\CashRegister\CashRegister\bin\Debug\netcoreapp3.1\CashRegister.dll.config
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page1.g.cs
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page1.baml
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page2.g.cs
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page2.baml

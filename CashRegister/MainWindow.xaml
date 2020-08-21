@@ -6,30 +6,6 @@
         xmlns:local="clr-namespace:CashRegister"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions >
-            <ColumnDefinition ></ColumnDefinition>
-            <ColumnDefinition ></ColumnDefinition>
-            <ColumnDefinition ></ColumnDefinition>
-   
-        </Grid.ColumnDefinitions>
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="2*"></RowDefinition>
-            <RowDefinition Height="20*"></RowDefinition>
-            <RowDefinition Height="1*"></RowDefinition>
-        </Grid.RowDefinitions>
-
-
-
-        <Button Grid.Row="1" Grid.Column="0" Width="100" Height="100" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Нове замовлення" Click="Button_Click"/>
-
-        <Button Grid.Row="1" Grid.Column="1" Width="100" Height="100" HorizontalAlignment="Center" VerticalAlignment="Center" Content="База данних"/>
-
-        <Button Grid.Row="1" Grid.Column="2" Width="100" Height="100" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Статистика"/>
-        <ListBox Grid.Column="1" Grid.Row="1" Margin="0,0,0,273" Name="listbox1"/>
-
-
-
-    </Grid>
+    <Frame x:Name="frame" Content="Frame" NavigationUIVisibility="Automatic"></Frame>
+    
 </Window>
