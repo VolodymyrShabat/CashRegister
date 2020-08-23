@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -22,12 +21,6 @@ namespace CashRegister
         public Page1()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click2(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new Page2());
-            //frame.NavigationUIVisibility = NavigationUIVisibility.Visible;
         }
     }
 }

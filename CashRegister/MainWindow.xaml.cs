@@ -22,15 +22,20 @@ namespace CashRegister
         public MainWindow()
         {
             InitializeComponent();
-            Loaded += MyWindowLoaded;
         }
-
-        private void MyWindowLoaded(object sender, RoutedEventArgs e)
+        private void BtClickP1(object sender, RoutedEventArgs e)
         {
-            frame.NavigationService.Navigate(new Page1());
-            this.frame.NavigationUIVisibility=NavigationUIVisibility.Hidden;
+            Main.Content = new Page1();
         }
-        
 
+        private void BtClickP2(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page2();
+        }
+
+        private void BtClickP3(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page3();
+        }
     }
 }

@@ -9,6 +9,6 @@
       Title="Page2">
 
     <Grid>
-        <ListBox x:Name="dblistbox"> </ListBox>
+        <TextBlock Text="Database Page" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
     </Grid>
 </Page>

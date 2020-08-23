@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace CashRegister
 {
     /// <summary>
-    /// Interaction logic for Page2.xaml
+    /// Interaction logic for Page3.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class Page3 : Page
     {
-        public Page2()
+        public Page3()
         {
             InitializeComponent();
         }

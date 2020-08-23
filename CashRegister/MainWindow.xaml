@@ -6,6 +6,14 @@
         xmlns:local="clr-namespace:CashRegister"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Frame x:Name="frame" Content="Frame" NavigationUIVisibility="Automatic"></Frame>
+    <Grid>
+        <StackPanel Orientation="Horizontal" Height="35" VerticalAlignment="Top">
+            <Button Content="Нове Замовлення" MinWidth="100" Click="BtClickP1" />
+            <Button Content="База Даних" MinWidth="100" Margin="25,0,0,0" Click="BtClickP2"/>
+            <Button Content="Статистика" MinWidth="100" Margin="25,0,0,0" Click="BtClickP3"/>
+        </StackPanel>
+        <Frame x:Name="Main" Margin="0,35,0,0" NavigationUIVisibility="Hidden"/>
+    </Grid>
+    
     
 </Window>

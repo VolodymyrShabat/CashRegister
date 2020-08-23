@@ -5720,25 +5720,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Volod\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Kyryl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Volod\\source\\repos\\CashRegister\\CashRegister\\CashRegister.csproj",
+      "projectUniqueName": "C:\\Users\\Kyryl\\Desktop\\Programs\\Cash Register\\CashRegister\\CashRegister\\CashRegister.csproj",
       "projectName": "CashRegister",
-      "projectPath": "C:\\Users\\Volod\\source\\repos\\CashRegister\\CashRegister\\CashRegister.csproj",
-      "packagesPath": "C:\\Users\\Volod\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Volod\\source\\repos\\CashRegister\\CashRegister\\obj\\",
+      "projectPath": "C:\\Users\\Kyryl\\Desktop\\Programs\\Cash Register\\CashRegister\\CashRegister\\CashRegister.csproj",
+      "packagesPath": "C:\\Users\\Kyryl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kyryl\\Desktop\\Programs\\Cash Register\\CashRegister\\CashRegister\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Volod\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Kyryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5790,7 +5785,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
