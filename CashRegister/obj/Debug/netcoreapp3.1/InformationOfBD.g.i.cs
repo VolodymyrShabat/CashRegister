@@ -61,7 +61,7 @@ namespace CashRegister {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CashRegister;V1.0.0.0;component/informationofbd.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CashRegister;component/informationofbd.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\InformationOfBD.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
