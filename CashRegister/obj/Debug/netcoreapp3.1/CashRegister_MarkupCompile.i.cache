@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Kyryl\Desktop\Programs\Cash Register\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\
 CashRegister
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\Kyryl\Desktop\Programs\Cash Register\CashRegister\CashRegister\App.xaml
-4-1100743238
+C:\Users\Volod\source\repos\CashRegister\CashRegister\App.xaml
+7-855794442
 
-12-993250301
-2171052795201
-MainWindow.xaml;Page1.xaml;Page2.xaml;Page3.xaml;
+15-1147561261
+2171877745028
+InformationOfBD.xaml;MainWindow.xaml;MenuPage.xaml;Page1.xaml;Page2.xaml;Page3.xaml;RefreshBD.xaml;
 
 True
 

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,18 +11,29 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
 namespace CashRegister
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for InformationOfBD.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class InformationOfBD : Page
     {
-        public MainWindow()
+        public InformationOfBD()
         {
             InitializeComponent();
-            _ = Main.Navigate(new MenuPage());
         }
-        
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            using(AppContext db = new AppContext())
+            {
+                var l = db.Products.ToList();
+                foreach (var item in l)
+                {
+                    T1.Text += item.ToString();
+                }
+            }
+        }
     }
 }

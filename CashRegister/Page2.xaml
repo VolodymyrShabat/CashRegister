@@ -9,6 +9,9 @@
       Title="Page2">
 
     <Grid>
-        <TextBlock Text="Database Page" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
+        <StackPanel Orientation="Horizontal" Height="65" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,182,0,0">
+            <Button Name="Button1" Content="Інформація" MinWidth="100" Click="Button1_Click_Page1" />
+            <Button Name="Button2" Content="Новий завіз" MinWidth="100" Margin="35,0,0,0" Click="Button2_Click_Page1"/>
+        </StackPanel>
     </Grid>
 </Page>

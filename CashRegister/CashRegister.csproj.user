@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="InformationOfBD.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Page1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -16,9 +22,18 @@
     <Compile Update="Page3.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="RefreshBD.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="InformationOfBD.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MenuPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Page1.xaml">
@@ -28,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Page3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RefreshBD.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

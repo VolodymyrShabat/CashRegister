@@ -15,33 +15,43 @@ using System.Windows.Shapes;
 namespace CashRegister
 {
     /// <summary>
-    /// Interaction logic for Page2.xaml
+    /// Interaction logic for MenuPage.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class MenuPage : Page
     {
-        public Page2()
+        public MenuPage()
         {
             InitializeComponent();
+        }
+        private void BtClickP1(object sender, RoutedEventArgs e)
+        {
 
+            MainWindow window1 = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if (window1 != null)       
+            {
+                window1.Main.Content = new Page1();
+            }
         }
 
-        private void Button1_Click_Page1(object sender, RoutedEventArgs e)
+        private void BtClickP2(object sender, RoutedEventArgs e)
         {
 
             MainWindow window1 = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             if (window1 != null)
             {
-                window1.Main.Content = new InformationOfBD();
+                window1.Main.Content = new Page2();
             }
-
         }
-        private void Button2_Click_Page1(object sender, RoutedEventArgs e)
+
+        private void BtClickP3(object sender, RoutedEventArgs e)
         {
+
             MainWindow window1 = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             if (window1 != null)
             {
-                window1.Main.Content = new RefreshBD();
+                window1.Main.Content = new Page3();
             }
+
         }
     }
 }

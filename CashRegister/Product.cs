@@ -10,6 +10,11 @@ namespace CashRegister
         public int Quantity { get; set; }
         public string ProductType { get; set; }
         public string ProductSubType { get; set; }
+
+        public override string ToString()
+        {
+            return this.Id + " "+ ProductName + " " +  Price + " " + Quantity + " " + ProductType + " " + ProductSubType +"\n" ;
+        }
     }
 
     class StatisticForDay

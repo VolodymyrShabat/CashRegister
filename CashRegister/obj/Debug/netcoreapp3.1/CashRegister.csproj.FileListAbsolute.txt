@@ -124,3 +124,11 @@ C:\Users\Kyryl\Desktop\Programs\Cash Register\CashRegister\CashRegister\obj\Debu
 C:\Users\Kyryl\Desktop\Programs\Cash Register\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\CashRegister.genruntimeconfig.cache
 C:\Users\Kyryl\Desktop\Programs\Cash Register\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page3.g.cs
 C:\Users\Kyryl\Desktop\Programs\Cash Register\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page3.baml
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page3.g.cs
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\Page3.baml
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\InformationOfBD.g.cs
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\InformationOfBD.baml
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\MenuPage.g.cs
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\MenuPage.baml
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\RefreshBD.g.cs
+C:\Users\Volod\source\repos\CashRegister\CashRegister\obj\Debug\netcoreapp3.1\RefreshBD.baml
